@@ -1,0 +1,2 @@
+module NdfyHelper
+end
