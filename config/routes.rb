@@ -1,5 +1,5 @@
 Ndfy::Application.routes.draw do
-  get "ndfy/home"
+  get "ndfy/home", "ndfy.me"
   get "ndfy/artists"
   get "ndfy/albums"
   
