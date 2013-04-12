@@ -2,8 +2,14 @@ Ndfy::Application.routes.draw do
   get "ndfy/home", "ndfy.me"
   get "ndfy/artists"
   get "ndfy/albums"
-  
+  get "ndfy/about"
+  get "ndfy/privacy"
+  get "ndfy/terms"
+  get "ndfy/faq"
 
+
+  resources :users
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

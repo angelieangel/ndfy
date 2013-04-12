@@ -1,3 +1,103 @@
 // Place all the styles related to the ndfy controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+//CSS for ndfy|home
+/*@font-face {
+  font-family: LemonChicken;
+  src: url('LEMONCHI.ttf');
+  font-family: Windsong;
+  src: url('Windsong.ttf');
+}*/
+
+p {
+  font-family: "Ubuntu Condensed";
+}
+
+p.welcome {
+  font-size: 75px;
+  position: relative;
+  background-image: url('cover.jpg');
+  background-size: cover;
+//left: 15px;
+  top: 55px;
+  text-align: center;
+  color: #fff;
+//  background-color: #ffffff;
+}
+
+p.discover {
+  font-size: 18px;
+  position: relative;
+  top: 63px;
+ // left: 75px;
+ // float: left;
+ // padding: 55px;
+ text-align: center;
+ color: #000;
+}
+
+p.go {
+  top: 70px;
+  position: relative;
+  text-align: center;
+  color: #000;
+}
+
+span.italic {
+  font-style: italic;
+}
+
+.ss {
+  font-family: "Ubuntu Condensed";
+  font-size: 20px;
+}
+
+#sign a {
+  height: 30px;
+  width: 150px;
+  background-color: #21c10e;
+  margin-left: 300px;
+  margin-top: 90px;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  float: left;
+  color: #fff;
+}
+
+#sign a:hover {
+ background-color: #398316;
+}
+
+#shut a {
+  height: 30px;
+  width: 180px;
+  margin-left: 10px;
+  margin-top: 90px;
+  background-color: #36acec;
+  text-decoration: none;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+}
+
+#shut a:hover {
+ background-color: #1f81b6;
+}
+
+
+//CSS for ndfy|artists and ndfy|albums
+p.all {
+  font-family: "Ubuntu Condensed";
+  font-size: 55px;
+  text-align: center;
+  top: 45px;
+  position: relative;
+}
+
+

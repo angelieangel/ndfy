@@ -10,4 +10,22 @@ class NdfyController < ApplicationController
   def albums
 
   end
+
+  def about
+
+  end
+
+  def privacy
+
+  end
+
+  def terms
+
+  end
+
+  def faq
+
+  end
+
+
 end

@@ -11,3 +11,131 @@
  *= require_self
  *= require_tree .
  */
+
+body {
+/*  background-image: url('megz.png');
+  background-size: cover;*/
+
+}
+
+/* This is for the HEADER */
+* {
+margin: 0;
+padding: 0;
+}
+
+#head li {
+  float: left;
+  height: 90%;
+  border-left: 2px solid #333;
+  line-height: 90%;
+}
+
+.nav {
+  background-color: #000;
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+
+#img a img {
+  height: 50px;
+  width: 85px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  line-height: 50px;
+  float: left;
+}
+
+#head a {
+    padding-right: 10px;
+    padding-left: 15px;
+    display: inline-block;
+    line-height: 50px;
+    text-decoration: none;
+    font-family: "Ubuntu Condensed";
+    font-size: 16px;
+    color: #fff;
+    float: left;
+    margin-left: 8px;
+  }
+
+#head a:hover {
+  color: #6d6464;
+}
+
+#signUp a {
+   padding-right: 10px;
+   display: inline-block;
+   line-height: 50px;
+   text-decoration: none;
+   font-family: "Ubuntu Condensed";
+   font-size: 16px;
+   color: #fff;
+   float: right;
+}
+
+#signUp a:hover {
+    color: #6d6464;
+  }
+
+
+/* CSS for FOOTER */
+ .footer {
+     position: relative;
+     bottom: 0px;
+     height: 50px;
+     width: 100%;
+     background: #000;
+}
+
+ .two a {
+   padding-left: 35px;
+   float: left; 
+   display: inline-block;
+   line-height: 50px;
+   text-decoration: none;
+   color: #fff;
+ }
+
+.two1 a {
+   float: left; 
+   display: inline-block;
+   line-height: 50px;
+   text-decoration: none;
+   color: #fff;
+ }
+
+
+ .four ul li {
+   margin-left: 10px;  
+   line-height: 50px;
+   float: left; 
+   display: inline-block; 
+   font-family: "Ubuntu Condensed";
+   font-size: 12px;
+ }
+
+ #ok a {
+   margin-left: 65px;
+ }
+
+ .four ul li a {
+   text-decoration: none;
+   color: #fff;
+ /*  padding-right: 5px;
+   padding-left: 5px;*/
+ }
+
+.copyright {
+   padding-right: 35px;
+   display: inline-block;
+   line-height: 50px;
+   text-decoration: none;
+   font-family: "Ubuntu Condensed";
+   font-size: 12px;
+   color: #fff;
+   float: right;
+}
+
